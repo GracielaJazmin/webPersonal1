@@ -1,28 +1,73 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="text/css" href="normalize.css">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
 </head>
+
 <body>
-<header>
-    <h1>Personal</h1>
-</header>
+    <header>
+        <h1 id="encabezado">Graciela Jazmín</h1>
+        <img src="girl.png" alt="">
+    </header>
     <nav>
         <ul>
-            <li>Estudios</li>
-            <li>Cursos</li>
-            <li>Hobbies</li>
-            <li>Tema de interes</li>
+            <li id="active">Inicio</li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Acerca de mi</a>
+                <div class="dropdown-content">
+                <p id="1">Estudio</p>
+                <p id="2">Cursos</p>
+                <p id="3">Hobbi</p>
+                <p id="4">Tema de interes</p>
+             </div>
+            </li>
+            <li>Contacto</li>
         </ul>
     </nav>
 
-    <aside>
+<div class="container">
+    <section id="estudio">
+        <article>
+            <img id="codigo" src="data.png" alt="">
+            <h1>Estudios</h1>
+            <p id="descricion">
+                Termine mi preparatoria en el Bachillerato No.1 de la Universidad de Colima, estoy estudiando en la Facultad de Telemática
+                en la carrera de Ingenieria en Software, estoy cursando mi cuarto semestre
+            </p>
+        </article>
+    </section>
+</div>
 
+    <section id="curso">
+        <article>
+            <h1>Cursos</h1>
+        </article>
+    </section>
+
+    <section id="hobbi">
+        <article>
+            <h1>Hobbies</h1>
+        </article>
+    </section>
+
+    <section id="tema">
+        <article>
+            <h1>Tema de interes</h1>
+        </article>
+    </section>
+
+
+
+
+    <aside>
+        <footer></footer>
     </aside>
 </body>
+
 </html>
