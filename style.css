@@ -54,6 +54,7 @@ ul{
   padding: 0;
   overflow: hidden;
   height:160px;
+  width: 119%;
      
 }
 
@@ -226,3 +227,7 @@ h1{
   text-align: center;
 }
 
+#red{
+  margin-top: -14%;
+  color: black;
+}
