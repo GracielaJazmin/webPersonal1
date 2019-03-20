@@ -10,7 +10,7 @@ body{
   background: linear-gradient(#9edec4,#03a9f4,#e91e63);
   margin: -80px;
   padding:0;
-  height: 454px;
+  height: 472px;
   margin-top: -97px;
 }
 
@@ -258,4 +258,12 @@ input{
   border: 2px solid white;
   border-radius: 5px;
   text-align: center;
+}
+
+button{
+  width: 32%;
+  height: 161%;
+  color: gray ;
+  margin-left: 34%;
+  margin-top: 1%;
 }
