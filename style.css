@@ -11,6 +11,7 @@ body{
   margin: -80px;
   padding:0;
   height: 454px;
+  margin-top: -97px;
 }
 
 header{
@@ -29,10 +30,10 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 23%;
+  width: 22%;
 }
 
-#descripcion{
+#descripcion, #acerca{
   font-size: 20px;
   color: white;
 }
@@ -201,6 +202,7 @@ li {
   
   .dropdown:hover .dropdown-content {
     display: block;
+    margin-top: 14px;
   }
 
   #1 #2, #3, #4{
@@ -230,6 +232,30 @@ h1{
 }
 
 #red{
-  margin-top: -14%;
   color: black;
+}
+
+#inicio{
+  text-decoration-line: none;
+  color: black;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+form{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  color: black;
+  display:grid;
+  text-align: center;
+}
+
+input{
+  height: 31px;
+  width: 200px;
+  margin-left: 41%;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-align: center;
 }
