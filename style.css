@@ -32,7 +32,7 @@ img{
   width: 23%;
 }
 
-#descripcion, #acerca{
+#descripcion{
   font-size: 20px;
   color: white;
 }
@@ -73,6 +73,8 @@ li {
   #active{
     background-color: pink;
     border-bottom: 2px solid black;
+    margin-top: -14px;
+    
   }
 
 
