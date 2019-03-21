@@ -1,17 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Rouge+Script');
 html{
-  background-image:url("ima/invitacion-boda-fondo-floral-estilo-acuarela_1361-498.jpg");
+  background-image:url("ima/168.jpg") ;
   margin: 155px;
+  background-attachment: fixed; 
+  background-size: 100%;
+
+
   
 }
 
 body{
-  background: linear-gradient(#9edec4,#03a9f4,#e91e63);
-  margin: -80px;
+  background: linear-gradient(#9bd9d1,#ebb8f1,#76428e);
+  margin: -111px;
   padding:0;
-  height: 472px;
+  height: 460px;
   margin-top: -97px;
+  
+  
 }
 
 header{
@@ -266,4 +272,10 @@ button{
   color: gray ;
   margin-left: 34%;
   margin-top: 1%;
+}
+
+textarea{
+  height: 59px;
+  width: 433px;
+  margin-left: 30%;
 }
